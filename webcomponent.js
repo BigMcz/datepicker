@@ -1,7 +1,7 @@
 (function () {
     let version = "2.5.2";
     let tmpl = document.createElement('template');
-    tmpl.innerHTML = `<link rel="stylesheet" type="text/css" href="https://gitlab.mibcon.cz/fiori/sac/datepicker/light.css"/>`;
+    tmpl.innerHTML = `<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/gh/BigMcz/datepicker/light.css"/>`;
 
     class DatePicker extends HTMLElement {
         constructor() {
@@ -71,7 +71,7 @@
         }
 
         set darktheme(value) {
-            this.querySelector("link").setAttribute("href", `https://gitlab.mibcon.cz/fiori/sac/datepicker/${value ? "dark" : "light"}.css`);
+            this.querySelector("link").setAttribute("href", `https://cdn.jsdelivr.net/gh/BigMcz/datepicker/${value ? "dark" : "light"}.css`);
         }
 
         set enablerange(value) {

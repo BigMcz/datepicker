@@ -7,19 +7,19 @@
 	"license": "",
 	"id": "nkappler.datepicker",
 	"version": "2.5.2",
-	"icon": "https://gitlab.mibcon.cz/fiori/sac/datepicker/calendarBlue.svg",
+	"icon": "https://cdn.jsdelivr.net/gh/BigMcz/datepicker/calendarBlue.svg",
 	"webcomponents": [
 		{
 			"kind": "main",
 			"tag": "nkappler-date-picker",
-			"url": "https://gitlab.mibcon.cz/fiori/sac/datepicker/webcomponent.js",
+			"url": "https://cdn.jsdelivr.net/gh/BigMcz/datepicker/webcomponent.js",
 			"integrity": "",
 			"ignoreIntegrity": true
 		},
 		{
 			"kind": "styling",
 			"tag": "nkappler-datepicker-aps",
-			"url": "https://gitlab.mibcon.cz/fiori/sac/datepicker/aps_webcomponent.js",
+			"url": "https://cdn.jsdelivr.net/gh/BigMcz/datepicker/aps_webcomponent.js",
 			"integrity": "",
 			"ignoreIntegrity": true
 		}
